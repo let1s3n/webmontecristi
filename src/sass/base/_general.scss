@@ -3,6 +3,10 @@
   --swiper-navigation-color: #1d3347 !important;
 }
 
+body {
+  background: url("/images/logo-montecristi.jpg") 0px 0px/100% 100%;
+}
+
 body.modal-open {
   position: fixed;
   overflow-y: scroll !important;
@@ -34,7 +38,9 @@ body.modal-open {
 a {
   text-decoration: none;
   color: unset;
-
+  &:hover {
+    color: unset;
+  }
   &:active {
     outline: none;
     color: unset;

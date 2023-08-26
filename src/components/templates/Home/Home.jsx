@@ -4,12 +4,12 @@ import { BsLinkedin } from "react-icons/bs";
 const Home = () => {
 
   return (
-    <Container className="g-0 d-flex flex-column align-items-center justify-content-center" style={{ height: "100vh", rowGap: "2rem" }}>
-      <Row className="g-0 justify-content-center">
+    <Container className="g-0 d-flex flex-column align-items-center justify-content-end text-white pb-5" style={{ height: "100vh", rowGap: "2rem" }}>
+      {/* <Row className="g-0 justify-content-center">
         <Col xs="auto" className="g-0">
           <Image className="logo" src="/images/logo-montecristi.jpg" />
         </Col>
-      </Row>
+      </Row> */}
 
       <Row className="g-0 justify-content-center">
         <Col xs="auto" className="g-0 text-center">
